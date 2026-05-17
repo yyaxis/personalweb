@@ -7,8 +7,12 @@ body {
         color: rgb(55, 131, 203);
         animation: diag 30s linear infinite;
         }
-
+.searchButton {
+        margin-left:10%; 
+        margin-top:5%;
+}
 .sidebar {
+        
         font-family: 'Courier New', Courier, monospace;
         display: inline-block;
         height:100%;
@@ -20,6 +24,12 @@ body {
         margin-top: 10%;
         background-color: whitesmoke;
         }
+/* .sidebar:hover
+        {
+        text-shadow: 0 0 5px rgb(70, 123, 172);
+        background-color: rgb(77, 168, 224);
+        color: aliceblue;
+        } */
 .links {
         font-family: 'Courier New', Courier, monospace;
         padding: 10px;
@@ -53,7 +63,13 @@ body {
         text-decoration: underline;
         display: inline-block;
         border: inset;
-        border-radius: 5px;
+        border-radius: 10px;
+        }
+.lnButton:hover
+        {
+        text-shadow: 0 0 5px rgb(70, 123, 172);
+        background-color: rgb(77, 168, 224);
+        color: aliceblue;
         }
 .igButton {
         background-color:aliceblue;
@@ -64,7 +80,12 @@ body {
         text-decoration: underline;
         display: inline-block;
         border: inset;
-        border-radius: 5px;
+        border-radius: 10px;
+        }
+.igButton:hover
+        {        text-shadow: 0 0 5px rgb(70, 123, 172);
+        background-color: rgb(77, 168, 224);
+        color: aliceblue;
         }
 @keyframes diag {
     0% {

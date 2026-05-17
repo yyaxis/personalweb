@@ -1,0 +1,2 @@
+hover
+a:hover { text-shadow: 0 0 5px color: rgb(217,232,246) }
