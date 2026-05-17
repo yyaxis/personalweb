@@ -1,0 +1,103 @@
+body {
+        height:100%;
+        display: block;
+        background-image:  url('cubes.png');
+        /* color: rgb(174, 166, 53); */
+        /* color: rgb(217,232,246); */
+        color: rgb(55, 131, 203);
+        animation: diag 30s linear infinite;
+        }
+
+.sidebar {
+        font-family: 'Courier New', Courier, monospace;
+        display: inline-block;
+        height:100%;
+        top: 10%;
+        position: sticky;
+        border: 5px outset gainsboro;
+        width:17%;
+        margin-left: 10%;
+        margin-top: 10%;
+        background-color: whitesmoke;
+        }
+.links {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 10px;
+        display: inline-block;
+        height:100%;
+        position: sticky;
+        width: 90%;
+        border: 5px inset lightskyblue;
+        margin-left: 0%;
+        margin-top: 0%;
+        background-color: whitesmoke;
+        }
+.contact {
+        font-family: 'Courier New', Courier, monospace;
+        padding: 10px;
+        display: inline-block;
+        height:100%;
+        width: 90%;
+        position: sticky;
+        border: 5px inset lightskyblue;
+        margin-left: 0%;
+        margin-top: 0%;
+        background-color: whitesmoke;
+}
+.lnButton {
+        background-color:aliceblue;
+        color: rgb(77, 168, 224);
+        padding: 10px 20px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        display: inline-block;
+        border: inset;
+        border-radius: 5px;
+        }
+.igButton {
+        background-color:aliceblue;
+        color: rgb(77, 168, 224);
+        padding: 10px 20px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+        display: inline-block;
+        border: inset;
+        border-radius: 5px;
+        }
+@keyframes diag {
+    0% {
+      background-position-x: 0%;
+      background-position-y: 0%;
+    }
+    100% {
+      background-position-x: 100%;
+      background-position-y: 100%;
+    }
+  }
+
+
+.title {
+display: inline-block;
+vertical-align: top;
+
+font-family: 'Courier New', Courier, monospace;
+border: 5px outset gainsboro;         
+background-color: whitesmoke;
+width: 60%;
+margin-left: 3%;
+margin-top: 10%;
+
+}
+
+.header {
+border: 5px inset lightskyblue;
+background-color: whitesmoke;
+text-align: center;
+}
+.bio {
+border: 5px inset lightskyblue;
+background-color: whitesmoke;
+text-align: center;
+}
