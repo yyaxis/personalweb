@@ -1,2 +1,6 @@
 hover
 a:hover { text-shadow: 0 0 5px color: rgb(217,232,246) }
+
+1. maybe not custom cursor
+2. add content
+3. links to github + neo
