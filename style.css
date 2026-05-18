@@ -8,9 +8,22 @@ body {
         animation: diag 30s linear infinite;
 
         /* cursor stuff */
-        cursor: src('cursoricon1.png'), pointer;
+        
 
         }
+.body{
+        cursor: url('cursoricon1.png'), pointer;
+}
+.body:hover{
+
+}
+
+/* Sparkle div styling from JavaScript */
+div[style*="z-index: 999"] {
+        pointer-events: none;
+        cursor: url('cursoricon1.png'), auto;
+}
+
 .bigtree {
         z-index: 1;
         position: fixed;
@@ -76,6 +89,12 @@ body {
         margin-top: 0%;
         background-color: whitesmoke;
 }
+a {
+        cursor: url('cursoricon1.png'), pointer;
+}
+
+/* all <a> stuff will keep the cursoricon1.png */
+
 .lnButton {
         background-color:aliceblue;
         color: rgb(77, 168, 224);
@@ -86,12 +105,14 @@ body {
         display: inline-block;
         border: inset;
         border-radius: 10px;
+        cursor: url('cursoricon1.png'), pointer;
         }
 .lnButton:hover
         {
         text-shadow: 0 0 5px rgb(70, 123, 172);
         background-color: rgb(77, 168, 224);
         color: aliceblue;
+        cursor: url('cursoricon1.png'), pointer;
         }
 .igButton {
         background-color:aliceblue;
@@ -103,11 +124,13 @@ body {
         display: inline-block;
         border: inset;
         border-radius: 10px;
+        cursor: url('cursoricon1.png'), pointer;
         }
 .igButton:hover
         {        text-shadow: 0 0 5px rgb(70, 123, 172);
         background-color: rgb(77, 168, 224);
         color: aliceblue;
+        cursor: url('cursoricon1.png'), pointer;
         }
 @keyframes diag {
     0% {
