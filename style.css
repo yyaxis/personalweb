@@ -11,13 +11,19 @@ body {
         cursor: src('cursoricon1.png'), pointer;
 
         }
+.bigtree {
+        z-index: 1;
+        position: fixed;
+        margin-left: 5%;
+        transform: scaleX(-1);
+}       
 .searchButton {
         margin-left:10%; 
         margin-top:5%;
 }
 
 .sidebar {
-        
+        z-index: 1;
         font-family: 'Courier New', Courier, monospace;
         display: inline-block;
         height:100%;
@@ -25,7 +31,7 @@ body {
         border: 5px outset gainsboro;
         width:17%;
         margin-left: 10%;
-        margin-top: 10%;
+        margin-top: 20%;
         background-color: whitesmoke;
         }
 /* .sidebar:hover
@@ -115,6 +121,7 @@ body {
 
 
 .title {
+z-index: -1;
 display: inline-block;
 vertical-align: top;
 
@@ -131,6 +138,7 @@ margin-top: 10%;
 border: 5px inset lightskyblue;
 background-color: whitesmoke;
 text-align: center;
+padding: 20px;
 }
 .bio {
 border: 5px inset lightskyblue;
