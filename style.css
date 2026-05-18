@@ -14,8 +14,9 @@ body {
 .bigtree {
         z-index: 1;
         position: fixed;
-        margin-left: 5%;
+        margin-left: 4.5%;
         transform: scaleX(-1);
+        transform: scale(1.1);
 }       
 .searchButton {
         margin-left:10%; 
@@ -123,15 +124,15 @@ body {
 .title {
 z-index: -1;
 display: inline-block;
-vertical-align: top;
+flex-direction: row;
 
 font-family: 'Courier New', Courier, monospace;
 border: 5px outset gainsboro;         
-background-color: whitesmoke;
+background-color: rgb(126, 7, 7);
 width: 60%;
 margin-left: 3%;
+height: 100%;
 margin-top: 10%;
-
 }
 
 .header {
@@ -139,9 +140,45 @@ border: 5px inset lightskyblue;
 background-color: whitesmoke;
 text-align: center;
 padding: 20px;
+height: fit-content;
+margin: 0;
+}
+.projheader {
+border: 5px inset lightskyblue;
+background-color: whitesmoke;
+text-align: center;
+padding: 20px;
+margin: 0;
+}
+.projects {
+border: 5px inset lightskyblue;
+background-color: whitesmoke;
+text-align: center;
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 0;
+height: fit-content;
+}
+.chromeextension {
+border: 3px outset aliceblue;
+background-color: whitesmoke;
+text-align: center;
+padding: 10px;
+height:fill;
+width:fill;
+}
+
+.thiswebsite {
+border: 3px outset aliceblue;
+background-color: whitesmoke;
+text-align: center;
+padding: 10px;
+height:fill;
+width:fill;     
 }
 .bio {
 border: 5px inset lightskyblue;
 background-color: whitesmoke;
 text-align: center;
+height: fit-content;   
 }
