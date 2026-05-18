@@ -14,9 +14,6 @@ body {
 .body{
         cursor: url('cursoricon1.png'), pointer;
 }
-.body:hover{
-
-}
 
 /* Sparkle div styling from JavaScript */
 div[style*="z-index: 999"] {
