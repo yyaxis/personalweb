@@ -23,7 +23,7 @@ div[style*="z-index: 999"] {
 
 .bigtree {
         z-index: 1;
-        position: sticky;
+        position: fixed;
         margin-left: 4.5%;
         transform: scaleX(-1);
         transform: scale(1.1);
