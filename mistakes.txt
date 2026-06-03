@@ -1,4 +1,0 @@
-1. tried to edit .body without setting <body> to a class called body 
-2. tried refreshing depd site instead of local
-3. did not resize imgs
-4. applied height twice 
