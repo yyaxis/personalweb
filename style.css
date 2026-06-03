@@ -38,9 +38,9 @@ div[style*="z-index: 999"] {
         font-family: 'Courier New', Courier, monospace;
         display: inline-block;
         height:100%;
-        position: sticky;
+        /* position: sticky; */
         border: 5px outset gainsboro;
-        width:17%;
+        width:20%;
         margin-left: 10%;
         margin-top: 20%;
         background-color: whitesmoke;
@@ -63,29 +63,7 @@ div[style*="z-index: 999"] {
 }
 .pfpcontent { margin-left: 0; margin-top: 15px; }
 
-.links {
-        font-family: 'Courier New', Courier, monospace;
-        padding: 10px;
-        display: inline-block;
-        height:100%;
-        width: 88.4%;
-        border: 5px inset lightskyblue;
-        margin-left: 0%;
-        margin-top: 0%;
-        background-color: whitesmoke;
-        }
-.contact {
-        font-family: 'Courier New', Courier, monospace;
-        padding: 10px;
-        display: inline-block;
-        height:100%;
-        width: 88.4%;
-        position: sticky;
-        border: 5px inset lightskyblue;
-        margin-left: 0%;
-        margin-top: 0%;
-        background-color: whitesmoke;
-}
+
 a {
         cursor: url('cursoricon1.png'), pointer;
 }
@@ -99,7 +77,9 @@ a {
         font-weight: bold;
         text-align: center;
         text-decoration: underline;
-        display: inline-block;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
         border: inset;
         border-radius: 10px;
         cursor: url('cursoricon1.png'), pointer;
@@ -118,7 +98,9 @@ a {
         font-weight: bold;
         text-align: center;
         text-decoration: underline;
-        display: inline-block;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
         border: inset;
         border-radius: 10px;
         cursor: url('cursoricon1.png'), pointer;
@@ -148,7 +130,6 @@ flex-direction: row;
 
 font-family: 'Courier New', Courier, monospace;
 border: 5px outset gainsboro;         
-background-color: rgb(126, 7, 7);
 width: 60%;
 margin-left: 3%;
 height: 100%;
@@ -167,7 +148,7 @@ margin: 0;
 border: 5px inset lightskyblue;
 background-color: whitesmoke;
 text-align: center;
-padding: 20px;
+/* padding: 20px; */
 margin: 0;
 }
 .projects {
